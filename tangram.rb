@@ -1,7 +1,7 @@
 class Tangram < Formula
     desc "Tangram is a build system and package manager."
     homepage "https://www.tangram.dev"
-    version ""
+    version "canary"
     if OS.mac? and Hardware::CPU.arm?
       url "https://github.com/tangramdotdev/tangram/releases/download/v#{version}/tangram_aarch64-darwin.tar.gz"
       sha256 ""
